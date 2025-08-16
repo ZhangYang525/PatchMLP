@@ -13,7 +13,9 @@ from utils.dtw_metric import accelerated_dtw  # 避免名字与变量冲突
 from utils.frequency_loss import FrequencyDomainL1Loss
 
 warnings.filterwarnings('ignore')
-
+"""
+新版代码 2025/8/17/2:03
+"""
 
 class Exp_Long_Term_Forecast(Exp_Basic):
     """
